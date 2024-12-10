@@ -27,3 +27,22 @@
 .my-button--bordered:hover{
     color: white;
 }
+.my-button--primary:hover {
+    background: rgb(0, 51, 132);
+    color: white;
+}
+
+.my-button--sm {
+    width: 20px;
+    height: 30px;
+}
+
+.my-button--md {
+    width: 50px;
+    height: 50px;
+}
+
+.my-button--lg {
+    width: 100px;
+    height: 100px;
+}
