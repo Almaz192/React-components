@@ -1,30 +1,28 @@
-.my-button{
+.my-button {
     background-color: rgb(54, 88, 188);
     height: 40px;
     border: transparent;
     min-width: 150px;
-    border-radius: 8px;
+    border-radius: 10px;
     color: white;
     font-size: 18px;
-    transition: background-color 0.2s ease-in-out ;
+    transition: background-color 0.2s ease-in-out;
 }
-.my-button:hover{
-    background-color:rgb(50, 80, 171) ;
+.my-button:hover {
+    background-color: rgb(50, 80, 171);
     cursor: pointer;
-    
 }
-.my-button--primary{
+.my-button--primary {
     background-color: royalblue;
     border: none;
     color: white;
 }
-.my-button--bordered{
+.my-button--bordered {
     background: none;
-    border: 1px solid royalblue;
-    color:royalblue;
-
+    border: 1.5px solid royalblue;
+    color: royalblue;
 }
-.my-button--bordered:hover{
+.my-button--bordered:hover {
     color: white;
 }
 .my-button--primary:hover {
@@ -43,6 +41,7 @@
 }
 
 .my-button--lg {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+
+    height: 70px;
 }

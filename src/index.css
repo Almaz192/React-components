@@ -1,13 +1,49 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+}
+.App {
+    padding-top: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bordered-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.primary-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.ex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.my-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.ex3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
